@@ -22,13 +22,13 @@ git submodule add https://github.com/rthinkel/tailwind-starter.git themes/tailwi
 
 ## Configuration
 
-### Tailwind Starter Theme
+#### Tailwind Starter Theme
 
 The main framework selected is Tailwind-CSS. The Tailwind-starter theme is loaded as a submodule in the 'themes/' folder, and is merely a way to pipeline the actual Tailwind codebase and additional NPM components into our HUGO site. Additionally, our theme will bundle, minify, fingerprint and compile our sass files automatically.
 
 Each sites design will be handled in its respective root layout folder, rather than the 'Tailwind-starter' theme folder.
 
-### NPM Packages
+#### NPM Packages
 
 * Tailwind CSS
 * jQuery
@@ -36,7 +36,7 @@ Each sites design will be handled in its respective root layout folder, rather t
 * Netlify Identity
 * Netlify CMS
 
-### Netlify Functionality
+#### Netlify Functionality
 
 * Forms & Alerts
 * Functions (Algolia, Code Optimization)
