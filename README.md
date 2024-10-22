@@ -8,8 +8,26 @@ Additionally, a shared set of NPM packages will be baked into each project, with
 
 More documentation to come.
 
-## Theme: Tailwind Starter
+### Tailwind Starter Theme
 
 The framework used for creating each site will be Tailwind-CSS. This is loaded as a submodule in the 'themes/' folder, and is merely a way to pipeline Tailwind and additional NPM components into the framework.
 
 Each sites respective design will be handled in the root Hugo layout folder, rather than the theme folder.
+
+### NPM Packages
+
+A list of included NPM packages
+
+### Netlify Functionality
+
+A list of Netlify functions and features we can utilize
+
+## Installation
+
+#### Submodules
+
+Hugo Starter Base Files
+| git submodule add https://github.com/rthinkel/hugo-starter.git
+
+Tailwind Starter Theme
+| git submodule add https://github.com/rthinkel/tailwind-starter.git themes/tailwind-starter
