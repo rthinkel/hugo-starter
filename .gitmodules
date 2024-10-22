@@ -1,0 +1,3 @@
+[submodule "themes/tailwind-starter"]
+	path = themes/tailwind-starter
+	url = https://github.com/rthinkel/tailwind-starter.git
