@@ -40,3 +40,7 @@ Each sites design will be handled in its respective root layout folder, rather t
 
 * Forms & Alerts
 * Functions (Algolia, Code Optimization)
+
+## Design & Layouts
+
+Each site will have its own custom layout, as created in the root 'layouts/' folder. I plan on making a base theme that can be forked and then cloned (rather than added as a submodule) to create a few designs to choose from.
