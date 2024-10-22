@@ -27,7 +27,11 @@ A list of Netlify functions and features we can utilize
 #### Submodules
 
 Hugo Starter Base Files
-| git submodule add https://github.com/rthinkel/hugo-starter.git
+```
+git submodule add https://github.com/rthinkel/hugo-starter.git
+```
 
 Tailwind Starter Theme
-| git submodule add https://github.com/rthinkel/tailwind-starter.git themes/tailwind-starter
+```
+git submodule add https://github.com/rthinkel/tailwind-starter.git themes/tailwind-starter
+```
