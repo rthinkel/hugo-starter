@@ -8,6 +8,8 @@ Additionally, a shared set of NPM packages will be baked into each project, with
 
 More documentation to come.
 
+---
+
 ### Tailwind Starter Theme
 
 The framework used for creating each site will be Tailwind-CSS. This is loaded as a submodule in the 'themes/' folder, and is merely a way to pipeline Tailwind and additional NPM components into the framework.
@@ -26,7 +28,6 @@ Each sites respective design will be handled in the root Hugo layout folder, rat
 
 * Forms & Alerts
 * Functions (Algolia, Code Optimization)
-
 
 ## Installation
 
