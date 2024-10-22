@@ -10,6 +10,18 @@ More documentation to come.
 
 ---
 
+## Installation
+
+```
+hugo new site quickstart
+cd quickstart
+git init
+git submodule add https://github.com/rthinkel/hugo-starter.git
+git submodule add https://github.com/rthinkel/tailwind-starter.git themes/tailwind-starter
+```
+
+## Configuration
+
 ### Tailwind Starter Theme
 
 The framework used for creating each site will be Tailwind-CSS. This is loaded as a submodule in the 'themes/' folder, and is merely a way to pipeline Tailwind and additional NPM components into the framework.
@@ -28,13 +40,3 @@ Each sites respective design will be handled in the root Hugo layout folder, rat
 
 * Forms & Alerts
 * Functions (Algolia, Code Optimization)
-
-## Installation
-
-```
-hugo new site quickstart
-cd quickstart
-git init
-git submodule add https://github.com/rthinkel/hugo-starter.git
-git submodule add https://github.com/rthinkel/tailwind-starter.git themes/tailwind-starter
-```
