@@ -16,11 +16,17 @@ Each sites respective design will be handled in the root Hugo layout folder, rat
 
 ### NPM Packages
 
-A list of included NPM packages
+* Tailwind CSS
+* jQuery
+* Algolia Search
+* Netlify Identity
+* Netlify CMS
 
 ### Netlify Functionality
 
-A list of Netlify functions and features we can utilize
+* Forms & Alerts
+* Functions (Algolia, Code Optimization)
+
 
 ## Installation
 
